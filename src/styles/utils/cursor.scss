@@ -1,0 +1,17 @@
+/*
+    utils: cursor.scss
+*/
+
+.cur {
+    &--pointer {
+        cursor: pointer;
+    }
+
+    &--default {
+        cursor: default;
+    }
+
+    &--blocked {
+        cursor: not-allowed;
+    }
+}

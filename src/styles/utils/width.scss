@@ -1,0 +1,17 @@
+/*
+    utils: width.scss
+*/
+
+.w {
+
+    &--full {
+        width: 100%;
+    }
+
+    &--230 {
+
+        &-px {
+            width: 230px;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+  "products": [
+    {
+      "barcode": 2413425332,
+      "name": "Luster na rasklapanje",
+      "details": "U 10 dijelova",
+      "quantity": 34,
+      "id": 3
+    },
+    {
+      "barcode": 91280713,
+      "name": "name",
+      "details": "test",
+      "quantity": 1,
+      "id": 6
+    }
+  ]
+}

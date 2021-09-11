@@ -1,0 +1,48 @@
+/*
+    utils: icons.scss
+*/
+
+.icon {
+    vertical-align: middle;
+    display: inline-block;
+
+    &--logo {
+        content: url(/assets/svg/logo.svg);
+    }
+
+    &--arr-left {
+        content: url(/assets/svg/arr-left.svg);
+    }
+
+    &--arr-right-long {
+        content: url(/assets/svg/arr-right-long.svg);
+    }
+
+    &--edit {
+        content: url(/assets/svg/edit.svg);
+    }
+
+    &--package {
+        content: url(/assets/svg/package.svg);
+    }
+
+    &--plus {
+        content: url(/assets/svg/plus.svg);
+    }
+
+    &--search {
+        content: url(/assets/svg/search.svg);
+    }
+
+    &--sort {
+        content: url(/assets/svg/sort.svg);
+
+        &.active {
+            content: url(/assets/svg/sort-active.svg);
+        }
+    }
+    
+    &--trash {
+        content: url(/assets/svg/trash.svg);
+    }
+}

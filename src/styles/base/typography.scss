@@ -1,0 +1,39 @@
+/*
+    base: typography.scss
+*/
+
+.montserrat {
+
+    &--semi-bold {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+    }
+}
+
+.nunito {
+
+    &--light {
+        font-family: 'Nunito', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+    }
+
+    &--regular {
+        font-family: 'Nunito', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    &--semi-bold {
+        font-family: 'Nunito', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+    }
+
+    &--extra-bold {
+        font-family: 'Nunito', sans-serif;
+        font-style: normal;
+        font-weight: 800;
+    }
+}

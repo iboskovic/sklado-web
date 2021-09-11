@@ -1,0 +1,26 @@
+/*
+    utils: flex.scss
+*/
+
+.flex {
+    display: flex;
+
+    &--justify {
+
+        &--center {
+            justify-content: center;
+        }
+
+        &--spc-between {
+            justify-content: space-between;
+        }
+
+        &--align {
+            align-items: center;
+        }
+    }
+
+    &--col {
+        flex-direction: column;
+    }
+}

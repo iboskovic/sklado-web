@@ -1,0 +1,58 @@
+/*
+    components: input.scss
+*/
+
+.input {
+    width: 100%;
+
+    &:focus {
+        outline: none;
+    }
+
+    &--primary {
+        border: 1px solid $color-black;
+    }
+
+    &--base {
+        width: 0;
+        padding: 14px 24px;
+        transition: width 300ms ease-out;
+
+        &--active {
+            width: 491px;
+            transition: width 300ms ease-out;
+            padding: 14px 50px;
+        }
+    }
+
+    &--md {
+        padding: 12px 16px;
+    }
+
+    &--sm {
+        width: 100px;
+    }
+
+    &__icon {
+        position: relative;
+        height: 100%;
+    
+        &--left {
+          position: absolute;
+          top: 13px;
+          left: 14px;
+        }
+    }
+}
+
+
+// type number hide arrows
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+  }

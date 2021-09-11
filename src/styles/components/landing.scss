@@ -1,0 +1,14 @@
+/*
+    components: landing.scss
+*/
+
+.landing {
+    background-image: url(/assets/svg/boxes.svg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    padding: 80px;
+}
