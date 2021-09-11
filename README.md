@@ -1,6 +1,6 @@
 # sklado-web
 
-# sklado-web is application mainly made for practice purpose
+sklado-web is application mainly made for practice purpose
 
 1. Run npm install
 
